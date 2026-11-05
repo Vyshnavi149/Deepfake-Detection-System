@@ -1,0 +1,33 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.log
+
+# Node.js dependencies and build output
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+*.env
+*.secret
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# Local data and generated files
+uploads/
+datasets/
+dataset/
+models/best_model.keras
+*.ipynb_checkpoints/
